@@ -1,0 +1,18 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node crash course",
+  "main": "global.js",
+  "scripts": {
+    "start": "node index",
+    "dev" :"nodemon index"
+  },
+  "author": "mohamed abdelhakem",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
